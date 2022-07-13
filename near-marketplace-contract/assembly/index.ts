@@ -29,3 +29,12 @@ export function buyProduct(productId: string): void {
     product.incrementSoldAmount();
     listedProducts.set(product.id, product);
 }
+
+//function to update the product
+// export function updateProduct(product: Product): void {
+//   const product = getProduct(productId);
+  //   if (product == null) {
+  //     throw new Error("product not found");
+  // }
+//     //update a product based on the property being updated
+// }
